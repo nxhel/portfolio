@@ -1,0 +1,165 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #120646;
+  color:#a479d5 
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  text-align: center; /* Center everything inside the header */
+}
+
+h1{
+  color:#a479d5 ;
+  text-align: center;
+  font-size: 60px;
+  padding: 50px;   
+}
+
+h2{
+  text-align: center;
+  font-size: 30px;
+}
+span,h3{
+  color: #ea8bda
+}
+h4{
+  margin-top:0;
+}
+h3{
+  margin-bottom:0;
+}
+
+
+ul{
+  list-style: none;
+}
+
+nav > ul{
+  display:flex;
+  justify-content: center;
+}
+
+nav>ul > li{
+  margin: 0 15px;
+  font-size: 18px
+}
+
+#about_pic {
+  border-radius: 50%; 
+  width: 100%;       
+  height: 100%;     
+  object-fit: cover; 
+}
+#about_sec{
+  display:flex;
+  padding: 25px;
+}
+#about_text{
+  flex:2;
+  padding: 35px;
+}
+
+#projects{
+  justify-content:center;
+}
+.project_pic{
+  width:100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+.project-image2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.project-content{
+  display:flex;
+  padding: 15px;
+  gap: 20px;
+}
+.left{
+  flex:1;
+  display:flex;
+}
+.right {
+  flex: 2;
+          
+  justify-content: center; 
+  align-items: center;     
+  text-align: center;      
+  padding: 20px;           
+}
+
+
+.technologies i , .code , .skills i , #socials i{
+  font-size: 40px;  
+  color: #a479d5;   
+}
+
+.code {
+  font-size: 15px;  
+  color: #a479d5; 
+  text-decoration: none;    
+}
+
+.technologies a , .skills a, a {
+  text-decoration: none;  
+}
+
+.technologies a:hover i , .skills a:hover i , nav > ul > li> a:hover, #socials> a:hover i {
+  color:#ea8bda        
+}
+
+
+#skill_sec , #socials{
+  display: flex;              
+  justify-content: center; 
+  align-items: center;
+  overflow-x: auto;           
+}
+
+.skills {
+  display: flex;              
+  align-items: center;   
+  
+}
+
+.skills a, #socials a {
+  text-align: center;       
+  margin: 10px;                   
+  flex: 0 0 auto;             
+}
+
+
+.skills p {
+  font-size: 14px;            
+  color: #fff;                
+  margin: 0;                  
+}
+
+footer{
+  background-color: #a479d5;     
+  color: #e6d8f7;     
+}
+
+
