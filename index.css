@@ -12,8 +12,8 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Full viewport height */
-  text-align: center; /* Center everything inside the header */
+  height: 100vh; 
+  text-align: center; 
 }
 
 h1{
