@@ -3,51 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NihelMad</title>
+    <title>Nihel's Window</title>
     <link rel="stylesheet" href="index.css">
     <link href="https://cdn.jsdelivr.net/npm/devicon@2.14.0/devicon.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Mono:ital,wght@1,278&display=swap" rel="stylesheet">
 
-
+    
 </head>
 <body>
   <header>
-    <h1>- مرحبًا - Привет - 你好 - Bonjour - नमस्ते -</h1>
-    <h1>  I'm <span>Nihel Madani-Fouatih</span></h1>
-    <h2>Don't be shy, come take a look at my portfolio</h2>
-    <nav>
-      <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#socials">Contacts</a></li>
-      </ul>
-      
-    </nav>
+    <div class="header-text">
+      <h1>- مرحبًا - Привет - 你好 - Bonjour - नमस्ते -</h1>
+      <h1><img id="bloom" src="./images/cute.gif" alt="Tiny Image" id="tiny-img">I'm <span>Nihel Madani-Fouatih<img id="bloom" src="./images/cute.gif" alt="Tiny Image" id="tiny-img"></span></h1>
+      <h2>Don't be shy, come take a look at my portfolio</h2>
+      <nav>
+        <ul>
+          <li><a href="#about">| About Me |</a></li>
+          <li><a href="#skills">| Skills |</a></li>
+          <li><a href="#projects">| Projects |</a></li>
+          <li><a href="#socials">| Contacts |</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main>
-
+   
     <div id="about">
       
-      <h2>About me</h2>
+      <h2>Who Am I?</h2>
       <section id="about_sec">
         <section id="img">
-          <img id="about_pic" src="./images/nini.jpg">
+          <img id="about_pic" src="./images/ni.jpg">
         </section>
 
         <section id="about_text">
-          <h4>
-            <span>Music</span> enthusiast, and passionate <span>language</span> learner I devote myself to a self growth journey. 
+          <p>
+            <span>Music</span> enthusiast, and passionate <span>language</span> learner I devote myself to a self growth journey. <span>Carpe Diem. </span>
             I am currently pursuing studies in <span>Computer Science </span> at Dawson College and a 
             Bachelor of Arts in <span>Economics</span> at Concordia University.
-          </h4>
+          </p>
 
-          <h4>
+          <p>
             As a <span>junior developper </span>, I have gained experience <span>problem solving, testing and troubleshooting </span>.
             I've worked extensively on both the <span>front end </span> and <span>back end </span>  of the project.
-            I consistently find ways to incorporate my <span>interests</span> and <span>creativity</span> in the best ways to achieve successful results
-          </h4>
+            I consistently find ways to incorporate my <span>interests</span> and <span>creativity</span> in the best ways to achieve successful results.
+          </p>
 
         </section>
       </section>
@@ -56,7 +65,7 @@
 
     <div id="skills">
       
-      <h2>Technical Skills</h2>
+      <h2>What Can I Do?</h2>
 
       <section id="skill_sec">
 
@@ -86,7 +95,7 @@
           <i class="devicon-java-plain"><p>Java</p></i>
         </a>
         <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank" rel="noopener noreferrer">
-          <i class="devicon-csharp-plain"><p>C#</p></i>
+          <i class="devicon-dotnetcore-plain"><p>C#</p></i>
         </a>
         <a href="https://kotlinlang.org/" target="_blank" rel="noopener noreferrer">
           <i class="devicon-kotlin-plain"><p>Kotlin</p></i>
@@ -97,7 +106,10 @@
         <a href="https://www.sqlite.org/" target="_blank" rel="noopener noreferrer">
           <i class="fas fa-database"><p>SQL</p></i> 
         </a>
-       
+        <a href="https://www.sqlite.org/" target="_blank" rel="noopener noreferrer">
+          <i class="devicon-grpc-plain"><p>GRPC</p> </i>
+        </a>
+        
         <a href="https://www.docker.com/" target="_blank" rel="noopener noreferrer">
           <i class="devicon-docker-plain"><p>Docker</p></i>
         </a>
@@ -112,7 +124,7 @@
     </div>
 
     <div id="projects">
-      <h2>Projects</h2>
+      <h2>What I've Worked On</h2>
 
       <section class="project">
        
@@ -154,27 +166,19 @@
                
               </div>
             </section>
-            <a class="code" href="https://www.mongoosejs.com/" target="_blank">
+            <a class="code" href="https://gitlab.com/nxhel/520-project-hojeji-hossain-madani-fouatih" target="_blank">
               Visit Site
             </a>
             
           </div>
         </section>
-      </section>
-    </div>
+     
 
       <section class="project">
 
-       
-
         <section class="project-content">
-          <div class="left">
-            <div class="project-image">
-              <img class="project_pic" src="./images/cprooj.png" alt="Recipe Manager Project">
-            </div>
-          </div>
+          
         
-
         <div class="right">
           <h3>Cook with Stich</h3>
           <h3>Cookbook Blog Application</h3>
@@ -188,8 +192,8 @@
                 <i class="devicon-csharp-plain"></i>  
               </a>
               
-              <a href="https://avaloniaui.net/" target="_blank" rel="noopener noreferrer">
-                <i class="devicon-dot-net-plain"></i> 
+              <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank" rel="noopener noreferrer">
+                <i class="devicon-dotnetcore-plain"></i>
               </a>
               
               <a href="https://www.oracle.com/database/" target="_blank" rel="noopener noreferrer">
@@ -198,11 +202,17 @@
               
             </div>
           </section>
-          <a class="code" href="https://www.mongoosejs.com/" target="_blank">
+          <a class="code" href="https://gitlab.com/csy2dawson23-24/410/sections-1-and-2/sec2team1/410_group-project_csharp" target="_blank">
             Visit Site
           </a>
-          
         </div>
+
+        <div class="left">
+          <div class="project-image">
+            <img class="project_pic" src="./images/cprooj.png" alt="Recipe Manager Project">
+          </div>
+        </div>
+
       </section>
 
    
@@ -211,10 +221,11 @@
         
 
         <section class="project-content">
-          <div class="left">
-            <div class="project-image">
-              <img class="android_app" src="./images/phone.png" alt="Recipe Manager Project">
-             
+
+          <div class="left" class="andro">
+            <div class="project-image" >
+              <img class="android_app"   style="height: 300px; width: 150px" src="./images/phone.png" alt="Recipe Manager Project">
+              
             </div>
           </div>
 
@@ -242,7 +253,7 @@
                 
               </div>
             </section>
-            <a class="code" href="https://www.mongoosejs.com/" target="_blank">
+            <a class="code" href="https://gitlab.com/dawson-csy3-24-25/511/section3/Alessandro-Isa-Nihel/booklibrary" target="_blank">
               Visit Site
             </a>
             
@@ -265,9 +276,9 @@
         <a href="mailto:nihel.madani-fouatihnihel@dawsoncollege.qc.ca" target="_blank" rel="noopener noreferrer">
           <i class="fas fa-envelope"></i>
         </a>
-        
-        
-        
+        <a href="https://open.spotify.com/playlist/0IqbmcYB3w12AtC04X6E8r?si=424a942c3f224733" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-spotify"></i>
+        </a>
       </section>
 
       </div>
@@ -284,7 +295,7 @@
 
 
   <footer>
-    <h5>All rights reserved @2025 || Nihel Madani-Fouatih</h5> 
+    <h5>@2025 All rights reserved || Nihel Madani-Fouatih</h5> 
   </footer>
     
 </body>

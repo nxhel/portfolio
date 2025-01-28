@@ -3,11 +3,14 @@ html {
 }
 
 body {
-  background-color: #120646;
-  color:#a479d5 
+  background-color: #e6d8f7;
+  color:#a479d5 ;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+
 }
 
-header {
+.header-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,15 +23,16 @@ h1{
   color:#a479d5 ;
   text-align: center;
   font-size: 60px;
-  padding: 50px;   
-}
+  
+}  
 
 h2{
   text-align: center;
   font-size: 30px;
 }
 span,h3{
-  color: #ea8bda
+  color: #ea8bda;
+  font-family:'Lora',sans-serif;
 }
 h4{
   margin-top:0;
@@ -36,7 +40,7 @@ h4{
 h3{
   margin-bottom:0;
 }
-
+ 
 
 ul{
   list-style: none;
@@ -47,11 +51,41 @@ nav > ul{
   justify-content: center;
 }
 
-nav>ul > li{
-  margin: 0 15px;
-  font-size: 18px
+li{
+  transition: background-color 0.2s ease;
 }
 
+li > a {
+  margin: 0 15px;
+  font-size: 22px;
+  color:#a479d5 ;
+}
+
+li:hover {
+  background-color: pink; 
+  color:#a479d5
+}
+
+
+
+#about, #skills, #projects{
+  margin: 15px;
+  border-radius: 25px;
+  background-color: #120646;
+  padding: 30px;
+}
+
+.header-text{
+  
+  background-color: #120646;
+  border-radius: 25px;
+  margin: 15px;
+}
+
+#bloom{
+  width: 5%;
+  margin: 0;
+}
 #about_pic {
   border-radius: 50%; 
   width: 100%;       
@@ -60,11 +94,15 @@ nav>ul > li{
 }
 #about_sec{
   display:flex;
-  padding: 25px;
+  justify-content: space-around;
+}
+#about_sec >img{
+  flex:1;
 }
 #about_text{
   flex:2;
-  padding: 35px;
+  font-size:20px;
+  padding-left: 20px;
 }
 
 #projects{
@@ -80,16 +118,11 @@ nav>ul > li{
   width: 100%;
   display: flex;
   justify-content: center;
-  
-  
+  background-color: #e6d8f7;
+  border-radius: 15px;
+  padding: 10px; 
 }
 
-.project-image2 {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-
-}
 
 
 .project-content{
@@ -119,8 +152,15 @@ nav>ul > li{
 .code {
   font-size: 15px;  
   color: #a479d5; 
-  text-decoration: none;    
+  text-decoration: none;
+
 }
+
+.code:hover{
+  background-color: pink; 
+  color:#a479d5
+}
+
 
 .technologies a , .skills a, a {
   text-decoration: none;  
@@ -158,8 +198,12 @@ nav>ul > li{
 }
 
 footer{
-  background-color: #a479d5;     
+  padding: 3px;
+  font-size: 18px;
+  text-align: center;
+  background-color: #120646; 
   color: #e6d8f7;     
 }
+
 
 
