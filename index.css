@@ -68,7 +68,7 @@ li:hover {
 
 
 
-#about, #skills, #projects{
+#about, #skills, #projects, #contact{
   margin: 15px;
   border-radius: 25px;
   background-color: #120646;
@@ -201,8 +201,7 @@ footer{
   padding: 3px;
   font-size: 18px;
   text-align: center;
-  background-color: #120646; 
-  color: #e6d8f7;     
+  color: #120646; 
 }
 
 
