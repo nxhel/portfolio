@@ -6,8 +6,8 @@ body {
   background-color: #e6d8f7;
   color:#a479d5 ;
   padding: 20px;
-  font-family: 'Roboto', sans-serif;
-
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+ 
 }
 
 .header-text {
@@ -32,7 +32,8 @@ h2{
 }
 span,h3{
   color: #ea8bda;
-  font-family:'Lora',sans-serif;
+  font-family: "Lucida Console", Monaco, "Courier New", monospace;
+
 }
 h4{
   margin-top:0;
